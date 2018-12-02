@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+# to upload a file to r markdown, go to history to find you previous upload 
+# save your data file in the same folder as rmd file so that you don;t specify file path
+# use to source
+
+```{r}
+mydata <- read.table(file = "row3.txt", header = TRUE, sep = ",", row.names = 1)
+mydata
+```
+
+## Including Plots
+
